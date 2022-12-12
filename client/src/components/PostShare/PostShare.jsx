@@ -27,7 +27,6 @@ const PostShare = () => {
   const reset = () => {
     setImage(null);
     desc.current.value = "";
-    window.location.reload()
   };
 
   const handleSubmit = (e) => {
