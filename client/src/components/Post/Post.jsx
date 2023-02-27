@@ -18,8 +18,6 @@ const Post = ({ data }) => {
     liked ? setLikes((prev => prev - 1)) : setLikes((prev => prev + 1))
   }
   
-  
-
   return (
     <div className="Post">
       <img src={data.image ? process.env.REACT_APP_PUBLIC_FOLDER + data.image : ""} alt="" />
